@@ -4,7 +4,7 @@ import Header from "./Header";
 import { useStateValue } from "./StateProvider";
 import SongRow from "./SongRow";
 import PlayCircleFilledIcon from "@mui/icons-material/PlayCircleFilled";
-import FavoriteIcon from " @mui/icons-material/Favorite";
+import FavouriteIcon from " @mui/icons-material/Favourite";
 import MoreHorizIcon from " @mui/icons-material/MoreHoriz";
 
 function Body({ spotify }) {
