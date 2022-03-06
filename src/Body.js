@@ -79,4 +79,4 @@ function Body({ spotify }) {
   );
 }
 
-export default Body;
+export default body;
