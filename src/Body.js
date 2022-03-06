@@ -57,7 +57,7 @@ function Body({ spotify }) {
         <div className="body__infoText">
           <strong>PLAYLIST</strong>
           <h2>Discover Weekly</h2>
-          <p>{discover_weekly ?.description}</p>
+          <p>{discover_weekly?.description}</p>
         </div>
       </div>
 
@@ -71,7 +71,7 @@ function Body({ spotify }) {
           <MoreHorizIcon />
         </div>
 
-        {discover_weekly ?.tracks.items.map((item) => (
+        {discover_weekly?.tracks.items.map((item) => (
           <SongRow playSong={playSong} track={item.track} />
         ))}
       </div>
